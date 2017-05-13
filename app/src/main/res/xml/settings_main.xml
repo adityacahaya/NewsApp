@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- bagian settings_main adalah tempat untuk menampung apa saja yang bisa di
+     setting oleh user di dalam aplikasi -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <!-- menambahkan setting yang berbentuk list topic berita yang bisa di pilih -->
+    <ListPreference
+        android:defaultValue="@string/settings_topic_default"
+        android:entries="@array/settings_topic_label"
+        android:entryValues="@array/settings_topic_value"
+        android:key="@string/settings_topic_key"
+        android:title="@string/settings_topic_label" />
+
+</PreferenceScreen>

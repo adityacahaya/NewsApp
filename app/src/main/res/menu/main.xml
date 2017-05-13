@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- layout ini digunakan untuk bagaimana menu di tampilkan pada activity dimana layout ini di panggil -->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wordpress.kadekadityablog.newsapp.NewsActivity">
+
+    <!-- tambahkan item pada menu, set judul untuk item nya sama icon untuk menu nya -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings_menu_item"
+        android:icon="@drawable/ic_filter"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- color untuk Tema dasar -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- color untuk section, date, dan jam di list_item -->
+    <color name="textColorNewsSection">#B4BAC0</color>
+
+    <!-- color untuk title di list_item -->
+    <color name="textColorNewsTtle">#2B3D4D</color>
+
+</resources>
